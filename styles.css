@@ -1,0 +1,61 @@
+*{
+    font-family:Helvetica;
+    text-decoration:none;
+    list-style:none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background: hsla(0, 0%, 0%, 0.902);
+    background-size: contain;
+    height: 44px;
+    justify-content:center;    
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}   
+header li {
+    padding-right: 50.58px; 
+}
+header li a{
+    font-size:12px;
+    color: white;   
+}
+#image {
+    display: flex;
+    background-image: url(images/figure.png);
+    background-size: contain;
+    flex-direction: column;   
+    height: 736px;
+    background-repeat:no-repeat;
+    align-items: center;
+}
+#image li {
+    color: white;
+    font-size: 24px;
+}
+#image h1 {
+    font-size: 51px;
+    margin: inherit;
+}
+#image ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 55px;
+}
+#iphone14 {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+#iphone14 a{
+    color: #2997FF;
+    font-size: 19px;                      
+}
+
