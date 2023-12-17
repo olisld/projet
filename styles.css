@@ -29,33 +29,297 @@ header li a{
 #image {
     display: flex;
     background-image: url(images/figure.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     flex-direction: column;   
     height: 736px;
     background-repeat:no-repeat;
     align-items: center;
+    padding-bottom: 12px;
 }
 #image li {
     color: white;
     font-size: 24px;
 }
-#image h1 {
-    font-size: 51px;
-    margin: inherit;
+
+
+.beetween {
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    
 }
-#image ul {
+.beetween a{
+    color: #2997FF;
+    font-size: 19px;
+    padding-inline-start: 40px;
+    white-space: nowrap;                      
+}
+#image2 {
+    display: flex;
+    background-image: url(images/figure2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 736px;
+    margin-bottom: 12px;
+}
+.texte-grande-image{
+    display: flex;
+    height: 197px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.texte-grande-image ul{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 55px;
 }
-#iphone14 {
+.texte-grande-image h1{
+    font-size: 52px;
+    margin-bottom: inherit;
+}
+.texte-grande-image li{
+    font-size: 25px;
+}
+.decoration li{
+    list-style: disc;
+}
+#image3{
+    background-image: url(images/figure3.png);
+    background-size: cover;
+    background-position: center;
+    height: 736px;
+    padding-bottom: 12px;
+}
+.inline{
     display: flex;
-    width: 250px;
-    justify-content: space-between;
+    flex-direction: row;
+    margin: 12px; ;
 }
-#iphone14 a{
-    color: #2997FF;
-    font-size: 19px;                      
-}
+#image4{
+    background-image: url(images/figure4.png);
+    margin-right: 12px;
 
+}
+#image5{
+    background-image: url(images/figure5.png);
+}
+.texte-petite-image{
+    display: flex;
+    height: 160.891px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.texte-petite-image ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.texte-petite-image h1{
+    font-size: 36px;
+    margin: inherit;
+    text-align: center;
+}
+.texte-petite-image li{
+    font-size: 19px;
+    color: #F5F5F7;
+    text-align: center;
+}
+.texte-petite-image .beetween a{
+    font-size: 17px;
+}
+.texte-petite-image.black li{
+    color: #1D1D1F;
+}
+#image6{
+    background-image: url(images/figure6.png);
+    margin-right: 12px;
+}
+.background{
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+}
+#image7{
+    background-image: url(images/figure7.png);
+}
+.dif{
+    height: 185px;
+}
+.dif2{
+    height:274px;
+}
+#image8{
+    background-image: url(images/figure8.png);
+    margin-right: 12px;
+}
+#image9{
+    background-image: url(images/figure9.png)
+}
+.background2{
+    background-position: center;
+    background-size: cover;
+    height: 667px;
+    width: 16.7%;
+}
+#image10{
+    background-image: url(images/apple_tv2.png);
+}
+.inline.margin0{
+    margin-left: 0;
+    margin-right: 0;    
+}
+#image11{
+    background-image: url(images/apple_tv.png);
+    display: flex;
+    align-items: end;
+    padding-left: 45px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+
+}
+.background3{
+    background-position: center;
+    background-size: cover;
+    height: 667px;
+    width: 66%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#image12{
+    background-image: url(images/apple_tv3.png);
+}
+#--logo{
+    background-color: #FFF;
+    border-radius: 980px;
+    height: 44px;
+    width: 128px;
+    font-size: 14px;
+    color: #1D1D1F;
+    display: flex;
+    align-items: center;
+    padding-left: 23px ;
+    margin-right: 40px;
+    box-sizing: border-box;
+
+}
+#--logo a{
+    color: #1D1D1F;
+}
+.alignement{
+    display: flex;
+    align-items:center ;
+    padding: 0;
+}
+.alignement ul{
+    padding: 25px;
+}
+.white{
+    color: #FFF;
+}
+#ligne-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+}
+#point-noir{
+    width: 8px;
+    height: 8px;
+    background-color:rgba(0, 0, 0, 0.56);
+    border-radius: 4px;
+    margin-right: 14px;
+}
+.point-clair{
+    width: 8px;
+    height: 8px;
+    background-color:rgba(0, 0, 0, 0.16) ;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+#long-texte{
+    background-color: #F5F5F7;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #6E6E73;
+}
+#paragraphe {
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    border-bottom:1px solid #D2D2D7;
+}
+#paragraphe p:first-child{
+    padding-left: 17px;
+}
+.souligné{
+    text-decoration: underline;
+}
+#information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 34px;
+}
+#information ul{
+    padding: 0;
+    color:#424245 ;
+}
+#information ul li:first-child{
+    color: rgb(29, 29, 31);
+    letter-spacing: -0.12px;
+}
+.margin-liste{
+    margin-bottom: 24px;
+}
+#information li{
+    margin-bottom: 12px;
+}
+.inline-no-margin{
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    border-bottom: 1px solid rgb(210, 210, 215);
+    padding-top: 1px;
+}
+.info{
+    margin-right: 30px;
+}
+a{
+    color: #2997FF;
+}
+.blue{
+    text-decoration: underline #2997FF;
+}
+#copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.end-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}  
+.end-flex li{
+    border-right: 1px solid #86868B;
+    padding-right: 19.3px;
+    margin-right: 10px;
+}
+body{
+    overflow-x: hidden;
+}
